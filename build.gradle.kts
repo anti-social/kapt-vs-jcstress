@@ -10,6 +10,8 @@ buildscript {
 plugins {
     java
     kotlin("jvm") version "1.3.21"
+    // Comment next line to fix jcstress task
+    kotlin("kapt") version "1.3.21"
 }
 
 apply {
